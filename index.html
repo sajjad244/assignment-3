@@ -40,7 +40,7 @@
     <!-- header -->
     <header class="container mx-auto bg-gradient-to-t from-white to-zinc-100 ">
         <!-- navbar -->
-        <nav>
+        <nav id="home">
             <div class="navbar p-5 md:p-20">
                 <div class="navbar-start">
                   
@@ -51,11 +51,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a class="font-bold">Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
+                    <li><a href="#footer" class="font-bold">Home</a></li>
+                    <li><a href="#footer">Services</a></li>
+                    <li><a href="#footer">Portfolio</a></li>
+                    <li><a href="#footer">Blogs</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
@@ -73,11 +73,11 @@
                     <ul
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
-                      <li><a class="font-bold">Home</a></li>
-                      <li><a class="font-bold">Services</a></li>
-                      <li><a class="font-bold">Portfolio</a></li>
-                      <li><a class="font-bold">Blogs</a></li>
-                      <li><a class="font-bold">Contact Us</a></li>
+                      <li><a href="#footer" class="font-bold">Home</a></li>
+                      <li><a href="#footer" class="font-bold">Services</a></li>
+                      <li><a href="#footer" class="font-bold">Portfolio</a></li>
+                      <li><a href="#footer" class="font-bold">Blogs</a></li>
+                      <li><a href="#footer" class="font-bold">Contact Us</a></li>
                     </ul>
                   </div>
                 </div>
@@ -369,6 +369,27 @@
         
     </main>
     <!-- footer -->
-    <footer></footer>
+    <footer class=" container mx-auto bg-black text-white" id="footer">
+      <section class="p-20">
+              <div class="text-center flex justify-center items-center content-center gap-3 ">
+                <p class=" text-black bg-emerald-400  text-xl  rounded-full w-[40px] h-[40px]"><i class="fa-solid fa-arrow-right -rotate-45 p-2"></i></p>
+                <p class="text-3xl font-black"> Rinterio</p>
+              </div>
+              <p class="text-center mt-5 text-opacity-20">The barn house captivates with its blend of rustic charm and modern
+                sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                <div class="mt-10 ">
+                  <ul class="flex flex-col justify-center items-center gap-y-10  lg:flex-row lg:justify-center gap-x-20 ">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home">Services</a></li>
+                    <li><a href="#home">Portfolio</a></li>
+                    <li><a href="#home">Blogs</a></li>
+                    <li><a href="#home">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="text-center mt-10">
+                  <a class="btn bg-green rounded-full font-extrabold text-base">Book Consult<i class="fa-solid fa-arrow-right text-[12px] text-white bg-black p-1.5 rounded-full -rotate-45"></i></a>
+                </div>
+      </section>
+    </footer>
 </body>
 </html>
